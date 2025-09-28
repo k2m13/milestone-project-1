@@ -1,3 +1,9 @@
-body {
-    background-color: antiquewhite;
+/* Google fonts: Inter, Monteserrat */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* header */
+#logo {
+    max-width: 200px;
+    height: auto;
+    padding: 10px;
 }
