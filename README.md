@@ -65,10 +65,10 @@ Contact subpage (form)
 ##Colour Scheme
 
 - text #051122
-- heading #63036A
-- background #9FCAF5
-- URL #01036A
-- button #06C6B5
+- heading #63036A purple
+- background #9FCAF5 baby blue
+- URL #01036A 
+- button #06C6B5 teal
 
 ##Contrast
 
