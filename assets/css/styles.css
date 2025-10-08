@@ -11,3 +11,17 @@
 #hero {
     border-radius: 1%;
 }
+
+.navbar-nav .nav-link {
+    color: #01036A !important;
+    font-size: 20px !important;
+}
+
+/* Footer */
+.copyright, .trademark {
+    color: #01036A;
+}
+
+.table-responsive {
+    font-family: "Inter", sans-serif ;
+}
