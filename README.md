@@ -77,6 +77,8 @@ Contact subpage (form)
 
 ## Website Map
 
+## Wireframes
+
 ## Colour Scheme
 
 - text #051122

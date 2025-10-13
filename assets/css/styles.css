@@ -17,6 +17,11 @@
     font-size: 20px;
 }
 
+/* Adds underline to a current page link in the navbar */
+.nav-link.active {
+    text-decoration: underline;
+}
+
 /* Footer */
 .copyright, .trademark {
     color: #01036A;
