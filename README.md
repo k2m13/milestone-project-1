@@ -145,5 +145,30 @@ This project was deployed to GitHub pages using VS Code
 ## Credits
 ### Content
 ### Media
+
+hero-image:
+https://usashopwe.shop/ProductDetail.aspx?iid=724322550&pr=73.88
+
+grey-maps:
+https://manualzz.com/doc/o/lmeqi/nokia-e72-manual-de-usuario-linterna
+
+nokia-e72-white-angle: 
+https://www.joom.com/en/products/658157f86b5257011f155f1f?srsltid=AfmBOoo71fwRLoPpf1Xm64jgWhkDktB1wiC0kfSKZ-nd2mFFn1Yeb2Ya 
+
+white-close-up:
+https://www.independent.co.uk/tech/nokia-gets-new-communicator-app-office-suite-as-it-shake-hands-with-microsoft-1964544.html
+
+black-front:
+https://www.ebay.co.uk/itm/135222103882
+
+black-flat:
+https://www.gearbest.ma/product/finland-made-e72-mobile-cell-phone-gsm-2g-3g-unlocked-5mp-camera-240x320-display-resolution-support-multi-language-used-phone/
+
+black-back:
+https://www.ebay.co.uk/itm/335440241218
+
+otterbox:
+https://www.slashgear.com/otterbox-nokia-e72-cases-arrive-1065709/
+
 ### Code
 ### Acknowledgements 
