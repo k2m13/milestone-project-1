@@ -107,6 +107,7 @@ Home, Documentation, Support, Thank-You
 - [ ] Add favicon, site title, and meta description.
 
 ## Accessibility
+Added ARIA labels and roles for navigation, carousel, and gallery for improved accessibility.
 
 ## Website Map
 
