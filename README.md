@@ -1,11 +1,46 @@
-# Nokia E72 Smartphone Website
 
-## Introduction
+# Nokia E72 Smartphone Documentation Website
 
-## User Story, Business Goals and Tasks
+## Table of Contents
+
+1. [UX](#ux)
+### [Project Goals](#project-goals-1)
+### [Developer and Business Goals](#developer-and-business-goals-1)
+### [User Stories](#user-stories-1)
+### [Desing Choices](#desing-choices-1)
+### [Wireframes](#wireframes-1)
+
+2. [Features](#features)
+### [Existing Features](#existing-features-1)
+### [Features Left to Implement](#features-left-to-implement-1)
+
+3. [Technologies Used](#technologies-used)
+
+4. [Testing](#testing)
+
+5. [Deployment](#deployment)
+### [Steps](#steps-1)
+### [How to Run This Project Locally](#how-to-run-this-project-locally-1)
+
+6. [Credits](#credits)
+### [Content](#content-1)
+### [Media](#media-1) 
+### [Code](#code-1)
+### [Acknowledgements](#acknowledgements-1) 
+
+
+
+ 
+## UX 
+### Project Goals
+### Developer and Business Goals
+
+1.	Preserve and share knowledge: Create a reliable resource about the Nokia E72, including its specs, manuals, and visuals.
+2.	Build engagement: Allow visitors to reach out with questions or contributions via a contact form.
+3.	Accessibility: Present content in a clear, simple layout that works well on desktop and mobile.
+4.	SEO value: Attract visitors searching for Nokia E72 documentation, history, or nostalgia content.
 
 ### User Stories
-
 **Homepage** (description + gallery)
 - As a nostalgic phone enthusiast, I want to read a short description of the Nokia E72, so I can quickly understand its history and importance.
 - As a visitor, I want to view a gallery of high-quality photos, so I can see the design details of the device.
@@ -17,13 +52,11 @@
 Contact subpage (form)
 - As a visitor, I want to use a simple contact form, so I can ask questions or provide feedback about the website.
 - As the site owner, I want inquiries sent to my email, so I can respond and engage with users.
- 
-### Business Goals
 
-1.	Preserve and share knowledge: Create a reliable resource about the Nokia E72, including its specs, manuals, and visuals.
-2.	Build engagement: Allow visitors to reach out with questions or contributions via a contact form.
-3.	Accessibility: Present content in a clear, simple layout that works well on desktop and mobile.
-4.	SEO value: Attract visitors searching for Nokia E72 documentation, history, or nostalgia content.
+### Desing Choices
+
+### Wireframes
+Home, Documentation, Support, Thank-You
 
 ### Tasks
 
@@ -77,8 +110,6 @@ Contact subpage (form)
 
 ## Website Map
 
-## Wireframes
-
 ## Colour Scheme
 
 - text #051122
@@ -95,4 +126,23 @@ Favicon was found on [ICONFINDER](https://www.iconfinder.com/search?q=nokia)
 
 Favicon was generated on [RealFaviconGenerator](https://realfavicongenerator.net) 
 
-## Test Results
+## Features
+### Existing Features
+### Features Left to Implement
+
+## Technologies Used
+
+## Testing
+Interesting bugs discovered and solution
+
+## Deployment
+### Steps
+
+This project was deployed to GitHub pages using VS Code
+### How to Run This Project Locally
+
+## Credits
+### Content
+### Media
+### Code
+### Acknowledgements 
