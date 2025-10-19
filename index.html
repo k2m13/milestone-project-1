@@ -31,7 +31,7 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+  <nav role="navigation" class="navbar navbar-expand-lg bg-body-tertiary sticky-top" aria-label="Main Navigation">
     <div class="container">
       <a href="index.html"><img src="assets/images/nokia-logo.webp" id="logo" alt="Nokia connecting people logo"
           class="navbar-brand" /></a>
@@ -56,10 +56,10 @@
   </nav>
 
   <!-- Header -->
-  <header class="container">
+  <header role="banner" class="container" aria-labelledby="site-title">
     <div class="row align-items-center py-5">
       <div class="col-12 col-lg-6">
-        <h1 class="display-3">Nokia E72</h1>
+        <h1 id="site-title" class="display-3">Nokia E72</h1>
         <p class="fs-3 lead">Discover the legendary QWERTY smartphone of the Nokia E-series lineup.</p>
       </div>
       <div class="col-12 col-lg-6 mt-4 mt-lg-0">
@@ -68,7 +68,7 @@
     </div>
   </header>
 
-  <main>
+  <main role="main">
     <section class="py-5">
       <article class="text-center container">
         <h3 class="fs-3 mb-3">Mastering Mobility in the Corporate Age</h3>
@@ -122,7 +122,9 @@
           mobility.</p>
       </article>
     </section>
-    <section>
+
+    <sectionclass="py-5" aria-labelledby="gallery-title">
+      <h2 id="gallery-title" class="visually-hidden">Nokia E72 Image Gallery</h2>
       <!-- Bootstrap grid gallery for all but small screens -->
       <div class="container-fluid">
         <div class="row d-none d-sm-flex justify-content-center">
@@ -133,8 +135,7 @@
             <img src="assets/images/nokia-e72-angle.webp" class="img-fluid" alt="Nokia E72 in black angled view">
           </div> -->
           <div class="col-md-4 col-sm-6 mb-4">
-            <img src="assets/images/nokia-e72-black-back.webp" class="img-fluid"
-              alt="Gallery Image 3Nokia E72 in black back view">
+            <img src="assets/images/nokia-e72-black-back.webp" class="img-fluid" alt="Nokia E72 black back view">
           </div>
           <!-- <div class="col-md-4 col-sm-6 mb-4">
             <img src="assets/images/nokia-e72-in-hand.webp" alt="Nokia E72 in black held in hand" class="img-fluid">
@@ -143,10 +144,10 @@
             <img src="assets/images/nokia-e72-grey.webp" alt="Nokia E72 in grey" class="img-fluid">
           </div> -->
           <div class="col-md-4 col-sm-6 mb-4">
-            <img src="assets/images/nokia-e72-white.webp" alt="Nokia E72 in white front view" class="img-fluid">
+            <img src="assets/images/nokia-e72-white.webp" alt="Nokia E72 white front view" class="img-fluid">
           </div>
           <div class="col-md-4 col-sm-6 mb-4">
-            <img src="assets/images/nokia-e72-white-closeup.webp" alt="Nokia E72 in white front view close-up"
+            <img src="assets/images/nokia-e72-white-closeup.webp" alt="Nokia E72 white front view close-up"
               class="img-fluid">
           </div>
           <!-- <div class="col-md-4 col-sm-6 mb-4">
@@ -167,68 +168,70 @@
           </div>
         </div>
       </div>
-    </section>
-    <!-- Bootstap carousel for small screens only -->
-    <div class="container d-block d-sm-none">
-      <div id="nokiaMobileCarousel" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <!-- <div class="carousel-item active">
+      </section>
+
+      <!-- Bootstap carousel for small screens only -->
+      <div class="container d-block d-sm-none">
+        <div id="nokiaMobileCarousel" class="carousel slide" data-bs-ride="carousel"
+          aria-label="Nokia E72 image carousel">
+          <div class="carousel-inner">
+            <!-- <div class="carousel-item active">
             <img src="assets/images/nokia-e72-front.webp" class="img-fluid" alt="Nokia E72 in black front view">
           </div> -->
-          <!-- <div class="carousel-item">
+            <!-- <div class="carousel-item">
             <img src="assets/images/nokia-e72-angle.webp" class="img-fluid" alt="Nokia E72 in black angled view">
           </div> -->
-          <div class="carousel-item active">
-            <img src="assets/images/nokia-e72-black-back.webp" class="img-fluid"
-              alt="Gallery Image 3Nokia E72 in black back view">
-          </div>
-          <!-- <div class="carousel-item">
+            <div class="carousel-item active">
+              <img src="assets/images/nokia-e72-black-back.webp" class="img-fluid" alt="Nokia E72 black back view">
+            </div>
+            <!-- <div class="carousel-item">
             <img src="assets/images/nokia-e72-in-hand.webp" alt="Nokia E72 in black held in hand" class="img-fluid">
           </div> -->
-          <div class="carousel-item">
-            <img src="assets/images/nokia-e72-grey.webp" alt="Nokia E72 in grey" class="img-fluid">
-          </div>
-          <div class="carousel-item">
-            <img src="assets/images/nokia-e72-white.webp" alt="Nokia E72 in white front view" class="img-fluid">
-          </div>
-          <div class="carousel-item">
-            <img src="assets/images/nokia-e72-white-closeup.webp" alt="Nokia E72 in white front view close-up"
-              class="img-fluid">
-          </div>
-          <!-- <div class="carousel-item">
+            <div class="carousel-item">
+              <img src="assets/images/nokia-e72-grey.webp" alt="Nokia E72 grey" class="img-fluid">
+            </div>
+            <div class="carousel-item">
+              <img src="assets/images/nokia-e72-white.webp" alt="Nokia E72 white front view" class="img-fluid">
+            </div>
+            <div class="carousel-item">
+              <img src="assets/images/nokia-e72-white-closeup.webp" alt="Nokia E72 white front view close-up"
+                class="img-fluid">
+            </div>
+            <!-- <div class="carousel-item">
             <img src="assets/images/nokia-e72-purple-front.jpg.webp" alt="Nokia E72 in purple front view" class="img-fluid">
           </div> -->
-          <!-- <div class="carousel-item">
+            <!-- <div class="carousel-item">
             <img src="assets/images/nokia-e72-purple-boxed.webp" alt="Nokia E72 in purple boxed" class="img-fluid">
           </div> -->
-          <div class="carousel-item">
-            <img src="assets/images/nokia-e72-zippered-handlebar-holder.webp"
-              alt="Nokia E72 in a zipped handlebar holder" class="img-fluid">
-          </div>
-          <!-- <div class="carousel-item">
+            <div class="carousel-item">
+              <img src="assets/images/nokia-e72-zippered-handlebar-holder.webp"
+                alt="Nokia E72 in a zipped handlebar holder" class="img-fluid">
+            </div>
+            <!-- <div class="carousel-item">
             <img src="assets/images/nokia-e72-box.webp" alt="Nokia E72 box" class="img-fluid">
           </div> -->
-          <div class="carousel-item">
-            <img src="assets/images/nokia-e72-otterbox-case.webp" alt="Nokia E72 in Ottebox case" class="img-fluid">
+            <div class="carousel-item">
+              <img src="assets/images/nokia-e72-otterbox-case.webp" alt="Nokia E72 Ottebox case" class="img-fluid">
+            </div>
           </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#nokiaMobileCarousel"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden"></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#nokiaMobileCarousel"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden"></span>
+          </button>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#nokiaMobileCarousel" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#nokiaMobileCarousel" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
       </div>
-    </div>
-    <section>
-
-    </section>
+      <section>
+      </section>
   </main>
 
   <!-- Footer -->
-  <footer class="footer-custom py-4 mt-5">
+  <footer role="contentinfo" class="footer-custom py-4 mt-5" aria-label="Site footer">
     <div class="container">
       <div class="row">
         <div class="col-12 text-center">
@@ -256,7 +259,9 @@
         </div>
       </div>
     </div>
-  </footer <!-- Bootstrap JS -->
+  </footer>
+
+  <!-- Bootstrap JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
     crossorigin="anonymous"></script>

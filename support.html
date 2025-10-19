@@ -31,7 +31,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+    <nav role="navigation" class="navbar navbar-expand-lg bg-body-tertiary sticky-top" aria-label="Main Navigation">
         <div class="container">
             <a href="index.html"><img src="assets/images/nokia-logo.webp" id="logo" alt="Nokia connecting people logo"
                     class="navbar-brand" /></a>
@@ -56,10 +56,10 @@
     </nav>
 
     <!-- Header -->
-    <header class="container">
+    <header role="banner" class="container" aria-labelledby="site-title">
         <div class="row align-items-center py-5">
             <div class="col-12 col-lg-6">
-                <h1 class="display-3">Nokia E72</h1>
+                <h1 id="site-title" class="display-3">Nokia E72</h1>
                 <p class="fs-3 lead">Discover the legendary QWERTY smartphone of the Nokia E-series lineup.</p>
             </div>
             <div class="col-12 col-lg-6 mt-4 mt-lg-0">
@@ -69,7 +69,7 @@
         </div>
     </header>
 
-    <main>
+    <main role="main">
         <form class="row g-3" action="thank-you.html" method="GET">
             <div class="col-12 col-md-6">
                 <label for="firstName" class="form-label">First Name</label>
@@ -115,7 +115,7 @@
     </main>
 
     <!-- Footer -->
-    <footer class="footer-custom py-4 mt-5">
+    <footer role="contentinfo" class="footer-custom py-4 mt-5" aria-label="Site footer">
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center">
@@ -143,7 +143,9 @@
                 </div>
             </div>
         </div>
-    </footer <!-- Bootstrap JS -->
+    </footer> 
+
+    <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
@@ -151,5 +153,4 @@
     <!-- Font Awesome kit -->
     <script src="https://kit.fontawesome.com/949bcb989b.js" crossorigin="anonymous"></script>
 </body>
-
 </html>
