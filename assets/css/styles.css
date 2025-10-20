@@ -98,7 +98,7 @@ a:focus {
 }
 
 /* Buttons */
-.btn-custom {
+.btn {
   background-color: var(--color-teal);
   color: #ffffff;
   border: none;
@@ -108,8 +108,8 @@ a:focus {
   cursor: pointer;
 }
 
-.btn-custom:hover,
-.btn-custom:focus {
+.btn:hover,
+.btn:focus {
   background-color: var(--color-teal);
   color: #ffffff;
 }
