@@ -115,9 +115,8 @@ Added ARIA labels and roles for navigation, carousel, and gallery for improved a
 
 - text #051122
 - heading #63036A purple
-- background #9FCAF5 baby blue
-- URL #01036A 
-- button #06C6B5 teal
+- background #FFFFFF white
+- button, URL #06C6B5 teal
 
 ## Contrast
 

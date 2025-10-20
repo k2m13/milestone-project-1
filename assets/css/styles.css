@@ -5,12 +5,10 @@
   --color-background: #FFFFFF;
   --color-teal: #06C6B5;
 
-
-
   --radius-base: 0.5rem;
 }
 
-/* Base */
+/* Global Styles */
 html {
   scroll-behavior: smooth;
 }
@@ -24,7 +22,7 @@ body {
   margin: 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3 {
   color: var(--color-heading);
   font-family: var(--font-heading);
   font-weight: 700;
@@ -37,7 +35,7 @@ p {
   margin-bottom: 1rem;
 }
 
-/* Links */
+/* URL's */
 a {
   color: var(--color-teal);
   text-decoration: underline;
