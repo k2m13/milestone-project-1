@@ -143,8 +143,13 @@ This project was deployed to GitHub pages using VS Code
 
 ## Credits
 ### Content
+
+
 ### Media
 
+Images for the website were sources from these pages:
+
+nokia logo: https://1000logos.net/nokia-logo/
 hero-image:
 https://usashopwe.shop/ProductDetail.aspx?iid=724322550&pr=73.88
 
