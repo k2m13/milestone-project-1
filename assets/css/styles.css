@@ -121,10 +121,6 @@ a:focus {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
-.gallery img:hover {
-  outline: 2px solid var(--color-teal);
-}
-
 /* Specs Table */
 .table-responsive {
   font-family: var(--font-body);
