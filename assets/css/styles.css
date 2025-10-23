@@ -1,9 +1,9 @@
 /* CSS Variables */
 :root {
   --color-text: #051122;
-  --color-heading: #63036A;
-  --color-background: #FFFFFF;
-  --color-teal: #06C6B5;
+  --color-heading: #63036a;
+  --color-background: #ffffff;
+  --color-teal: #06c6b5;
   --radius-base: 0.5rem;
 }
 
@@ -16,13 +16,16 @@ body {
   background-color: var(--color-background);
   color: var(--color-text);
   /* System fonts for better performance and consistency across devices */
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
   font-weight: 400;
   line-height: 1.6;
   margin: 0;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   color: var(--color-heading);
   font-family: var(--font-heading);
   font-weight: 700;
