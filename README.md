@@ -55,15 +55,29 @@ The main objectives of this project from both developer and user perspectives in
 ### User Stories
 **Homepage** (description + gallery)
 - As a nostalgic phone enthusiast, I want to read a short description of the Nokia E72, so I can quickly understand its history and importance.
+
+![User Story](assets/readme-images/user-story-1.png)
 - As a visitor, I want to view a gallery of high-quality photos, so I can see the design details of the device.
+
+![User Story](assets/readme-images/user-story-2.png)
 
 **Documentation subpage** (manuals + specs table)
 - As a user who owns a Nokia E72, I want to download the user manual, so I can learn how to operate the phone.
+
+![User Story](assets/readme-images/user-story-3.png)
+
 - As a repair technician or hobbyist, I want to access the service manual, so I can understand repair procedures.
+
+![User Story](assets/readme-images/user-story-4.png)
+
 - As a researcher or collector, I want to view a clear technical specifications table, so I can compare the E72 with other phones.
+
+![User Story](assets/readme-images/user-story-5.png)
 
 **Contact subpage** (form)
 - As a visitor, I want to use a simple contact form, so I can ask for help troubleshooting the device.
+
+![User Story](assets/readme-images/user-story-6.png)
 
 ### Design Choices
 
