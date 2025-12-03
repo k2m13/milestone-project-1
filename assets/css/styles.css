@@ -5,6 +5,7 @@
   --color-background: #ffffff;
   --color-teal: #06c6b5;
   --radius-base: 0.5rem;
+  --font-heading: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }
 
 /* Global Styles */
@@ -77,6 +78,13 @@ a:focus {
   font-weight: 600;
 }
 
+/* Logo (slightly smaller on very small screens) */
+@media (max-width: 400px) {
+  #logo {
+    max-width: 150px;
+  }
+}
+
 /* Header */
 #logo {
   max-width: 200px;
@@ -119,6 +127,9 @@ a:focus {
 
 /* Gallery */
 .gallery img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
   background-color: #ffffff;
   border-radius: var(--radius-base);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
