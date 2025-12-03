@@ -221,7 +221,7 @@ in Safari (17.7.2) and on Ipad Air 5th Genaration in Safari (17.7.2).
 | Mobile responsiveness | Layout adjusts across devices | Verified on iPhone, Android | Done |
 
 HTML and CSS was tested and validated using [W3C Validator](https://validator.w3.org)
-All errors discovered were then corrected in Visual Code Studio.
+All errors flagged were then corrected in Visual Code Studio.
 
 **W3C CSS Validator Test**
 
@@ -232,6 +232,96 @@ Accessibility was reviewed using Chrome Lighthouse and manual checks for alt tex
 **Lighthouse Test**
 
 ![Lighthouse Testing](assets/readme-images/lighthouse-test.png)
+
+**Bug Evaluation and Fixes**
+
+During development and manual device testing, several issues were identified in layout, responsiveness and styling. All issues were reviewed, and fixes were implemented to ensure consistent behaviour across mobile, tablet and desktop devices.
+
+**Bug 1 — Navigation bar wrapping on small screens**
+
+**Issue:**
+On very small devices (e.g., iPhone SE or narrow-width browsers), the navigation text wrapped into two lines.
+
+**Cause:**
+A large logo width (200px) combined with increased nav-link font size limited available horizontal space.
+
+**Fix:**
+A media query was added to reduce the logo size on screens under 400px wide.
+
+```css
+@media (max-width: 400px) {
+  #logo {
+    max-width: 150px;
+  }
+}
+```
+
+**Bug 2 — Gallery images appearing distorted on Safari**
+
+**Issue:**
+One gallery image stretched slightly on iOS Safari due to inconsistent image aspect ratios.
+
+**Cause:**
+The gallery images lacked a defined object-fit rule.
+
+**Fix:**
+Updated the gallery image CSS to enforce consistent scaling:
+
+```css
+.gallery img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+```
+
+**Bug 3 — Undefined CSS variable for heading font**
+
+**Issue:**
+The headings referenced --font-heading, which was never defined. Browsers fell back to default fonts.
+
+**Fix:**
+A proper heading font variable was added inside :root.
+
+```css
+--font-heading: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+```
+
+**Bug 4 — Buttons had no hover feedback**
+
+**Issue:**
+Buttons looked identical on hover, causing poor interactivity and accessibility.
+
+**Fix:**
+A hover state was introduced to emphasize the button interaction.
+
+```css
+.btn:hover {
+  background-color: var(--color-heading);
+}
+```
+
+**Bug 5 — Focus outline blended with link colour**
+
+**Issue:**
+Using the teal outline made focus states difficult to see on teal-coloured links.
+
+**Fix:**
+The outline colour was changed to the heading purple for stronger contrast.
+
+```css
+:focus {
+  outline: 3px solid var(--color-heading);
+}
+```
+
+**Known Issues (Unfixed)**
+
+**Safari auto-zoom on form email field**
+Safari on iOS automatically zooms in on form fields where the font size is smaller than 16px.
+
+**Reason not fixed:**
+Increasing the base font size disrupted the mobile layout. This issue is common and does not affect usability, so it was accepted.
 
 ---
 ## Deployment
